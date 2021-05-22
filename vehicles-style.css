@@ -1,0 +1,109 @@
+body {	
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.wrapper {
+	width: 1300px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background: black;
+	width: 100%;
+	position: fixed;
+}
+.logo {
+	width: 15%;
+	float: left;
+	line-height: 150px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav :hover{
+	color: white;
+	font-weight: bold;
+	transition: 0.25s;
+	border-bottom: 3px solid white;
+}
+nav a {
+	text-transform: capitalize;
+	text-decoration: none;
+	font-family: cambria;
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #808080;
+}
+.banner-area {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background-image: url("Vehicles banner.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 570px;
+	background: black;
+	height: 650px;
+}
+.content-area h2 {
+	font-family: cambria;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+	color: white;
+}
+.content-area h3 {
+	font-family: cambria;
+	padding-top: 10px;
+	font-size: 35px;
+	margin: 0;
+	color: white;
+}
+.content-area p {
+	font-family: cambria;
+	line-height: 15px;
+	color: white;
+	font-size: 25px;
+}
+.content-area a{
+	margin: 0 10px;
+}
+.box {
+	box-sizing: border-box;
+	width: 400px;
+	height: 500px;
+	border: 0px;
+	margin: 0 auto;
+	text-align: center;
+}
+.content-area b {
+	line-height: 15px;
+	font-family: cambria;
+	font-size: 25px;
+	margin: 0;
+	color: white;
+}
+.box button{
+	background: none;
+	margin: 10px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+	font-size: 20px;
+}
+.box button:hover{
+	background: #a9a9a9;
+}
